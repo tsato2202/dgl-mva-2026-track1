@@ -1,0 +1,28 @@
+# Patient data
+data/
+private/
+patient_data/
+*.vcf
+*.vcf.gz
+*.tbi
+*.bcf
+*.bam
+*.bai
+*.cram
+*.crai
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.h5ad
+
+# Clinical documents
+*.docx
+
+# Secrets and temporary files
+.env
+.env.*
+*.pem
+*.key
+.ipynb_checkpoints/
+__pycache__/
